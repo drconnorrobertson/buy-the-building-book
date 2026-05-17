@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rent vs Own Calculator | Buy The Building, Keep The Profits</title>
+  <meta name="description" content="Calculate whether buying your commercial building makes financial sense. Compare rent costs vs ownership benefits including equity, appreciation, and tax savings.">
+  <link rel="canonical" href="https://buythebuildingbook.com/calculator/">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="/" class="nav__logo">Buy The <span>Building</span></a>
+      <ul class="nav__links">
+        <li><a href="/about/">Why Own</a></li>
+        <li><a href="/chapters/">Chapters</a></li>
+        <li><a href="/strategy/">Strategy</a></li>
+        <li><a href="/calculator/">Calculator</a></li>
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="/author/">Author</a></li>
+        <li><a href="/contact/" class="nav__cta">Get the Book</a></li>
+      </ul>
+      <button class="nav__mobile-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </nav>
+
+  <section class="hero" style="min-height: 40vh; background: linear-gradient(135deg, rgba(28, 25, 23, 0.92), rgba(28, 25, 23, 0.85)), url('https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1920&q=80') center/cover no-repeat;">
+    <div class="container">
+      <div class="hero__content">
+        <h1>Rent vs Own <span>Calculator</span></h1>
+        <p>See the real numbers behind building ownership. Input your current situation and discover what you are leaving on the table.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="calculator">
+        <h3 class="text-center mb-3">Compare Your Options</h3>
+        <form id="calc-form" class="calculator__form">
+          <div class="grid grid--2">
+            <div class="form-group">
+              <label for="monthly-rent">Current Monthly Rent ($)</label>
+              <input type="number" id="monthly-rent" placeholder="8000" value="8000">
+            </div>
+            <div class="form-group">
+              <label for="building-price">Building Purchase Price ($)</label>
+              <input type="number" id="building-price" placeholder="1200000" value="1200000">
+            </div>
+            <div class="form-group">
+              <label for="down-payment">Down Payment (%)</label>
+              <input type="number" id="down-payment" placeholder="20" value="20" min="5" max="50">
+            </div>
+            <div class="form-group">
+              <label for="interest-rate">Interest Rate (%)</label>
+              <input type="number" id="interest-rate" placeholder="6.5" value="6.5" step="0.1">
+            </div>
+            <div class="form-group">
+              <label for="loan-term">Loan Term (years)</label>
+              <input type="number" id="loan-term" placeholder="25" value="25" min="10" max="30">
+            </div>
+          </div>
+          <div class="text-center mt-2">
+            <button type="submit" class="btn btn--gold btn--large">Calculate Comparison</button>
+          </div>
+        </form>
+        <div id="calc-results" class="calculator__results"></div>
+      </div>
+
+      <div class="mt-3" style="max-width: 800px; margin-left: auto; margin-right: auto;">
+        <h3 class="text-center mb-2">What This Calculator Shows</h3>
+        <div class="grid grid--2" style="gap: 2rem;">
+          <div>
+            <h4>Included in Analysis</h4>
+            <ul style="list-style: disc; padding-left: 1.5rem; color: var(--gray-600);">
+              <li>Monthly payment comparison</li>
+              <li>Equity accumulation over time</li>
+              <li>Building appreciation (3% annual)</li>
+              <li>Total rent cost projection</li>
+              <li>Net wealth position comparison</li>
+            </ul>
+          </div>
+          <div>
+            <h4>Additional Benefits (Not Shown)</h4>
+            <ul style="list-style: disc; padding-left: 1.5rem; color: var(--gray-600);">
+              <li>Tax savings from depreciation</li>
+              <li>Cost segregation acceleration</li>
+              <li>Interest deduction benefits</li>
+              <li>Post-sale rental income</li>
+              <li>1031 exchange potential</li>
+            </ul>
+          </div>
+        </div>
+        <p class="text-center mt-3" style="font-size: 0.9rem; color: var(--gray-500);">This calculator provides estimates for educational purposes. Consult with a qualified advisor for your specific situation. The full book includes detailed analysis frameworks and case studies.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--gold">
+    <div class="container text-center">
+      <h2 style="color: var(--white);">Want the Complete Analysis Framework?</h2>
+      <p style="color: rgba(255,255,255,0.9); font-size: 1.2rem; max-width: 600px; margin: 1.5rem auto;">The book includes advanced models incorporating tax benefits, multiple scenarios, and decision frameworks tailored to your business stage.</p>
+      <a href="/contact/" class="btn" style="background: var(--charcoal); color: var(--white); margin-top: 1rem;">Get the Book</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <h4>Buy The Building</h4>
+          <p style="font-size: 0.9rem;">The definitive guide for business owners ready to build real wealth through commercial real estate ownership.</p>
+        </div>
+        <div>
+          <h4>Pages</h4>
+          <ul class="footer__links">
+            <li><a href="/about/">Why Own Your Building</a></li>
+            <li><a href="/chapters/">Chapter Overview</a></li>
+            <li><a href="/strategy/">Strategy Guide</a></li>
+            <li><a href="/calculator/">Rent vs Own Calculator</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Resources</h4>
+          <ul class="footer__links">
+            <li><a href="/blog/">Blog</a></li>
+            <li><a href="/author/">About the Author</a></li>
+            <li><a href="/contact/">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Dr. Connor Robertson. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>
