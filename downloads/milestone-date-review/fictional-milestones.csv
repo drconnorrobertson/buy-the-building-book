@@ -1,0 +1,5 @@
+milestone_id,milestone,approved_date,source_id,reviewer,approval_status
+M1,Adviser review of supplied package,2026-11-01,D1,Adviser A,approved
+M2,Receive report,2026-11-03,D2,Adviser B,approved
+M2,Receive report,2026-11-04,D3,Adviser B,pending
+M3,Unconfirmed milestone,,D4,Adviser A,pending

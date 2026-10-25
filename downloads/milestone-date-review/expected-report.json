@@ -1,0 +1,37 @@
+{
+  "records": 4,
+  "reviewable_dates": [
+    {
+      "milestone_id": "M1",
+      "milestone": "Adviser review of supplied package",
+      "approved_date": "2026-11-01",
+      "source_id": "D1",
+      "reviewer": "Adviser A"
+    }
+  ],
+  "issues": [
+    {
+      "record": 3,
+      "milestone_id": "M2",
+      "issues": [
+        "conflicting_dates"
+      ]
+    },
+    {
+      "record": 4,
+      "milestone_id": "M2",
+      "issues": [
+        "not_approved",
+        "conflicting_dates"
+      ]
+    },
+    {
+      "record": 5,
+      "milestone_id": "M3",
+      "issues": [
+        "not_approved",
+        "missing_date"
+      ]
+    }
+  ]
+}
