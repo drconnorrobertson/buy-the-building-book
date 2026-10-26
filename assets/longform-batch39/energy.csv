@@ -1,0 +1,15 @@
+fictional_pattern,interval,duration_minutes,average_kW
+Flat,1,15,2
+Flat,2,15,2
+Flat,3,15,2
+Flat,4,15,2
+Concentrated,1,15,0
+Concentrated,2,15,0
+Concentrated,3,15,0
+Concentrated,4,15,8
+Middle,1,15,1
+Middle,2,15,1
+Middle,3,15,5
+Middle,4,15,1
+Unequal,1,15,2
+Unequal,2,45,6
