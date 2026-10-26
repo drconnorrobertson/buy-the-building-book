@@ -1,0 +1,5 @@
+fictional_case,annual_USD,area_square_feet,annual_USD_per_square_foot,scope
+SensitivityA,160000,10000,16,Measurement basis unresolved
+SensitivityB,160000,8000,20,Measurement basis unresolved
+ComparableX,160000,10000,16,Invented common comparison basis
+ComparableY,120000,6000,20,Invented common comparison basis
