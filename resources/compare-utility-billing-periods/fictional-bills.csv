@@ -1,0 +1,4 @@
+bill_id,meter_id,unit,usage,billed_days,amount,currency,reading_basis
+B01,M01,kWh,1200,30,240.00,USD,fictional actual
+B02,M01,kWh,1240,31,279.00,USD,fictional actual
+B03,M01,kWh,1400,28,280.00,USD,fictional actual

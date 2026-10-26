@@ -1,0 +1,41 @@
+[
+  {
+    "bill_id": "B01",
+    "meter_id": "M01",
+    "unit": "kWh",
+    "usage": "1200",
+    "billed_days": "30",
+    "amount": "240.00",
+    "currency": "USD",
+    "reading_basis": "fictional actual",
+    "usage_per_billed_day_kWh": "40.0000",
+    "selected_amount_per_billed_day": "8.00",
+    "selected_amount_divided_by_usage": "0.2000"
+  },
+  {
+    "bill_id": "B02",
+    "meter_id": "M01",
+    "unit": "kWh",
+    "usage": "1240",
+    "billed_days": "31",
+    "amount": "279.00",
+    "currency": "USD",
+    "reading_basis": "fictional actual",
+    "usage_per_billed_day_kWh": "40.0000",
+    "selected_amount_per_billed_day": "9.00",
+    "selected_amount_divided_by_usage": "0.2250"
+  },
+  {
+    "bill_id": "B03",
+    "meter_id": "M01",
+    "unit": "kWh",
+    "usage": "1400",
+    "billed_days": "28",
+    "amount": "280.00",
+    "currency": "USD",
+    "reading_basis": "fictional actual",
+    "usage_per_billed_day_kWh": "50.0000",
+    "selected_amount_per_billed_day": "10.00",
+    "selected_amount_divided_by_usage": "0.2000"
+  }
+]
